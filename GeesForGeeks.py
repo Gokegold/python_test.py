@@ -237,3 +237,22 @@ d = 2
 
 max_number = max(c, d)
 print(max_number)
+
+
+# OR using the Ternary Operrator
+
+a = 12
+c = 24
+
+print(a if a >= c else C)
+      
+# OR 
+      # python code to find maximum of two numbers
+
+a = 2
+b = 4
+
+maxi = lambda a, b: a if a > b else b
+
+print(f'{maxi(a,b)} is a maximum number')
+
