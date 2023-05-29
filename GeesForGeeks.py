@@ -58,3 +58,53 @@ def adds(num1, num2):
 
 
 print(adds(5, 3))
+      
+
+# Question 3
+"""
+ Python program to add two numbers using lambda
+ 
+"""
+# Driver Code
+if __name__ == "__main__":
+
+    number1 = 5
+    number2 = 3
+
+    add_num = lambda numbers1, numbers2: number1 + number2
+
+    print(f"the Add_sum is {add_num(number1, number2)}")
+    print(f"{number1} and {number2} is {add_num(number1, number2)}")
+
+# Question 4
+"""
+Defining add function and returning the result.
+"""
+def plus(a, b):
+    return a+b
+
+
+numb_1 = 10
+numb_2 = 5
+
+sum_of_numb = plus(numb_1, numb_2)
+
+print(f"the sum of {numb_1} and {numb_2} is {sum_of_numb}")
+
+# Question 5
+
+"""
+Add two numbers in Python using operator.add() method
+
+Initialize two variables num1, and num2.
+Find sum using the operator.add() by passing num1, and num2 as arguments and assign to su.
+Display num1,num2 and su
+"""
+
+import operator
+
+numbs_1 = 15
+numbs_2 = 12
+
+sums = operator.add(numbs_1, numbs_2)
+print(f"the sums of {numbs_2} and {numbs_1} is {sums}")
