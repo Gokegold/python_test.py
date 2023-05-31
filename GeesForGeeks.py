@@ -256,3 +256,22 @@ maxi = lambda a, b: a if a > b else b
 
 print(f'{maxi(a,b)} is a maximum number')
 
+
+a = 2
+b = 4
+ot = [a,b]
+x.sort()
+print(ot[-1])
+
+
+# using sort()
+
+a = 2
+b = 4
+c = 6
+d = 0
+f = 12
+e = 7
+ot = [a,b, c, d, e, f]
+ot.sort()
+print(ot[-1])
